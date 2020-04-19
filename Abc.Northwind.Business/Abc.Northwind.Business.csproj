@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\Abc.Northwind.Business.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netstandard1.6\Abc.Northwind.Business.deps.json" />
+    <Content Include="obj\Abc.Northwind.Business.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Abc.Northwind.Business.xproj" />
+    <None Include="Abc.Northwind.Business.xproj.user" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Core.dll" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Core.pdb" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Northwind.Business.dll" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Northwind.Business.pdb" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Northwind.DataAccess.dll" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Northwind.DataAccess.pdb" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Northwind.Entities.dll" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Northwind.Entities.pdb" />
+    <None Include="obj\Abc.Northwind.Business.csproj.nuget.g.props" />
+    <None Include="obj\Abc.Northwind.Business.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\Abc.Northwind.Business.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Abc.Northwind.Business.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Abc.Northwind.Business.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netstandard1.6\.IncrementalCache" />
+    <None Include="obj\Debug\netstandard1.6\.SDKVersion" />
+    <None Include="obj\Debug\netstandard1.6\dotnet-compile-csc.rsp" />
+    <None Include="obj\Debug\netstandard1.6\dotnet-compile.rsp" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abc.Northwind.DataAccess\Abc.Northwind.DataAccess.csproj" />
+    <ProjectReference Include="..\Abc.Northwind.Entities\Abc.Northwind.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

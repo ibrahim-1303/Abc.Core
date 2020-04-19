@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netstandard1.6\Abc.Northwind.Entities.deps.json" />
+    <Content Include="obj\Abc.Northwind.Entities.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Abc.Northwind.Entities.xproj" />
+    <None Include="Abc.Northwind.Entities.xproj.user" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Core.dll" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Core.pdb" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Northwind.Entities.dll" />
+    <None Include="bin\Debug\netstandard1.6\Abc.Northwind.Entities.pdb" />
+    <None Include="obj\Abc.Northwind.Entities.csproj.nuget.g.props" />
+    <None Include="obj\Abc.Northwind.Entities.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netstandard1.6\.IncrementalCache" />
+    <None Include="obj\Debug\netstandard1.6\.SDKVersion" />
+    <None Include="obj\Debug\netstandard1.6\dotnet-compile-csc.rsp" />
+    <None Include="obj\Debug\netstandard1.6\dotnet-compile.rsp" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\" />
+    <Folder Include="ComplexTypes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abc.Core\Abc.Core.csproj" />
+  </ItemGroup>
+
+</Project>
